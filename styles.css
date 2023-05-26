@@ -45,6 +45,8 @@ a{
       display:flex;
       flex-direction:column;
       margin: -5px;
+      padding-top:150px;
+      
       
       
       
@@ -174,6 +176,7 @@ a{
         justify-content:center;
         align-items:center;
         flex-wrap: wrap;
+        padding-top:30px;
     }
   
        
@@ -189,8 +192,9 @@ a{
 display:flex;
 width:100%;
 background-color:rgb(255, 255, 255);
-height:5vh;
+height:6vh;
 justify-content: center;
+
 }
 
 .shopheader2{
@@ -212,7 +216,9 @@ justify-content: space-around;
 
 
 .imgfloat{
-float: right;
+display: flex;
+display: inline;
+margin: 0;
 }
 
 .shopheader3{
@@ -231,19 +237,24 @@ float: right;
     justify-content:center;
     flex-wrap: wrap;
     flex-direction:row;
+    padding-top: 50px;
     
   }
 
   .imagealign3{ 
     margin: auto 20%;
     display:flex; 
-    justify-content:center;
-    flex-wrap: wrap;
     flex-direction:row;
+    padding-top:1px;
     justify-content: center;
-    
-  }
+     }
+   
+     .image-container{
+      padding: 5px;
 
+    }
+    
+  
 
   .releasesboxes{
    height:5vh;
@@ -254,7 +265,8 @@ float: right;
     display:inline;
     transition:color 0.5s;
     transition:translate 0.4s;
-    transition-timing-function:
+    flex:wrap;
+    
     }
     
   
